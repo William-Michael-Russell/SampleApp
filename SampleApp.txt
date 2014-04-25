@@ -1,0 +1,23 @@
+## Title: SampleApp
+
+## Author: @awesomebilly
+## APIVersion: 100003
+## SavedVariables: SampleApp_Saved_Variable
+## Version: 3.0
+## OptionalDependsOn: LibAddonMenu-1.0, LibAnimation-1.0, LibStub.lua, Unicorn.lua, List.lua
+
+libs/Unicorn.lua
+libs/List.lua
+libs/LibAddonMenu-1.0
+libs/LibAnimation-1.0
+libs/LibStub.lua
+
+core/SampleAppUI.lua
+core/SampCommons.lua
+core/SampleDebug.lua
+core/SampleSlashCommands.lua
+Sam p leApp/SI.lua
+SampleApp.xml
+SampleApp.lua
+
+

@@ -1,0 +1,11 @@
+<GuiXml>
+	<Controls>
+		<TopLevelControl name="SampleAppControl" mouseEnabled="true">
+			
+			<OnUpdate>
+				SampleAppOnUpdate()
+			</OnUpdate>
+			
+		</TopLevelControl>
+	</Controls>
+</GuiXml>
