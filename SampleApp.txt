@@ -3,7 +3,7 @@
 ## Author: @awesomebilly
 ## APIVersion: 100003
 ## SavedVariables: SampleApp_Saved_Variable
-## Version: 3.0
+## Version: 1.1
 ## OptionalDependsOn: LibAddonMenu-1.0, LibAnimation-1.0, LibStub.lua, Unicorn.lua, List.lua
 
 libs/Unicorn.lua
@@ -12,12 +12,17 @@ libs/LibAddonMenu-1.0
 libs/LibAnimation-1.0
 libs/LibStub.lua
 
+SampleAppGlobals.lua
+core/SI.lua
+localization/$(language).lua
+
 core/SampleAppUI.lua
 core/SampCommons.lua
 core/SampleDebug.lua
 core/SampleSlashCommands.lua
-Sam p leApp/SI.lua
-SampleApp.xml
+SampleGuildChecker.lua
 SampleApp.lua
+SampleApp.xml
+
 
 

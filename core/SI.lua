@@ -1,10 +1,10 @@
 local SI = {}
 
--- texts
-SI.NO_DISCOVERIES_AVAILABLE = "SI_ALCHEMIST_NO_DISCOVERIES_AVAILABLE"
-SI.COMBINATIONS_AVAILABLE = "SI_ALCHEMIST_COMBINATIONS_AVAILABLE"
-SI.COMBINE_THE_FOLLOWING = "SI_ALCHEMIST_COMBINE_THE_FOLLOWING"
-SI.TO_GET_THE_FOLLOWING_DISCOVERIES = "SI_ALCHEMIST_TO_GET_THE_FOLLOWING_DISCOVERIES"
+-------- --------------------------------------------------------------------
+-- Each SI you create you need to register with it with ESO like below
+-----------------------------------------------------------------------------
+SI.WELCOMEMSG = "SI_WELCOMEMSG"
+SI.REFRESH = "SI_SAMP_REFRESH"
 
 
 -- utility functions
@@ -13,4 +13,6 @@ function SI.get(key, n)
     return assert(GetString(_G[key], n))
 end
 
-SampleApp.SI = SI
+
+---- Your global sampleApp var from SampleApp.lua. We're setting it to SI here. 
+sampleApp.SI = SI
